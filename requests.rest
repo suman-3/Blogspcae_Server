@@ -1,0 +1,27 @@
+# Access Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTM4MGM1MDc5YjNmNmQ3OWIxOWQ2NiIsImlhdCI6MTY5OTk3MTI2OX0.kEiWXpGOle2WGZuLNxkdhi_408xfpm2MxHOsCKq0lBU
+# POST http://localhost:3000/signin
+# Content-Type: application/json
+
+# {
+#    "email":"mon@gmail.com",
+#    "password":"#Mon9732",
+# }
+
+
+POST http://localhost:3000/user-written-blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTgyYjZmM2M1MzU3YjY2MTQzMTYwNCIsImlhdCI6MTcwNTUyMTc5N30.6ifpz4OpLj2GAQddKy8nr8DPOFie2R5BKpNxypRzVLI
+Content-Type: application/json
+
+
+{
+  "page" : 1,
+  "draft":true
+}
+
+# GET http://localhost:3000/new-notification
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTZjN2Y2N2VhZDhkODE5ZWY5ZDdlZSIsImlhdCI6MTcwNTQyODk5MH0.LnIPADSnohSqbKuBhO-QOp1cCEzw6q-tym4vYVTdPGE
+
+
+
+
+
