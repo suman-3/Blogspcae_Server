@@ -1080,7 +1080,7 @@ server.post("/delete-blog", verifyJWT, (req, res) => {
         user_id,
         {
           $pull: { blogs: blog._id },
-          $inc: { "account_info.total_posts": -1 },
+          $inc: { "account_info.total_posts": blog.draft ? 0 : -1 },
         },
         { new: true } // To return the modified document
       )
